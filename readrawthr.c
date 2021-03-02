@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
     /*
         Check input parameters,and get the count of the threads
     */
-    while((opt = getopt(argc, argv, "jh248")) != -1)  
+    while((opt = getopt(argc, argv, "jh")) != -1)  
     {  
         switch(opt)  
         {  
